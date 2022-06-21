@@ -147,6 +147,8 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
 }
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 if env.get_value("GDAL_LIBRARY_PATH", default=None):
     GDAL_LIBRARY_PATH = env("GDAL_LIBRARY_PATH")
 if env.get_value("GEOS_LIBRARY_PATH", default=None):
