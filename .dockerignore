@@ -1,0 +1,14 @@
+.git
+.gitignore
+test*
+*.pyc
+*.pyo
+*.mo
+*.db
+.cache
+.project
+.idea
+.pydevproject
+.idea/workspace.xml
+.DS_Store
+Dockerfile*
